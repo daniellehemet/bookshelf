@@ -4,7 +4,6 @@ import {useState, useEffect} from 'react';
 // to GET our database, we must import the corresponding firebase modules
 import {getDatabase, onValue, push, remove, ref} from 'firebase/database';
 
-const unusedVar = "unused"
 
 function App() {
   // create books state that will store our db info
